@@ -232,7 +232,7 @@ function WorkProfile {
 
   # Function to retrieve essential apps
   function GetEssentialApps {
-    $esfolder = "./essential"
+    $esfolder = "./work_essential"
     $allpackages = (adb -s $DevSID shell pm list packages -u --user 0 | ForEach-Object { $_ -replace '^package:', '' }).Trim()
 
     $allmodules = Invoke-Expression "adb -s $DevSID shell pm get-moduleinfo --all"
