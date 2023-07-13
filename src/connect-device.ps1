@@ -4,34 +4,21 @@ adb start-server
 # Retrieve the list of connected devices
 $devOutput = @(adb devices -l | Select-Object -Skip 1 | Select-Object -SkipLast 1)
 
-# Function to select a device from the list
-function SelectDevice {
-  $index = 0
-  $devOutput.ForEach({
-      Write-Host "[$index]. $_"
-      $index++
-    })
-
+# Check the count of connected devices & select a device from the list
+if ($devOutput.Count -eq 0) {
+  Write-Host "No devices found"
+  return
+} else {
+  $devOutput | ForEach-Object -Begin { $i = 0 } -Process { "[$i]. $_"; $i++ }
   $devindex = Read-Host "Select Device Index"
 
   while ($devindex -gt ($devOutput.Count - 1)) {
     $devindex = Read-Host "Invalid device index. Select Device Index"
   }
-
-  return $devindex
 }
-
-# Check the count of connected devices
-if ($devOutput.Count -eq 0) {
-  Write-Host "No devices found"
-  return
-} else {
-  $devindex = SelectDevice
-}
-
-$devSelect = $devOutput[$devindex]
 
 # Check the selected device status
+$devSelect = $devOutput[$devindex]
 
 if ($devSelect.Contains("device")) {
   Write-Host "Device Connected"
