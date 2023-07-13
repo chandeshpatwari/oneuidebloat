@@ -1,5 +1,6 @@
 $host.ui.rawui.BackgroundColor = "Black"
 $host.ui.rawui.ForegroundColor = "White"
+Clear-Host
 
 # Check ADB
 if (!(adb.exe)) { "adb not installed"; return }
@@ -59,6 +60,7 @@ function ExecuteCommandsForPackages($packages, $command) {
 function AutoDebloat {
   RestoreUninstalledSystemApps
   RemoveBloats
+
 }
 
 # Function to restore uninstalled system apps
@@ -84,10 +86,7 @@ function CleanCorrupt {
   $installedPackages = (adb -s $DevSID shell pm list packages -3 --user 0).Replace('package:', '')
   $allsystempackages = (adb -s $DevSID shell pm list packages -s -u --user 0).Replace('package:', '')
   $filteredPackages = (adb -s $DevSID shell pm list packages -u --user 0).Replace('package:', '') | Where-Object { $_ -notin $installedPackages -and $_ -notin $allsystempackages } | Sort-Object
-
-  foreach ($package in $filteredPackages) {
-    adb -s $DevSID shell pm uninstall $package
-  }
+  ExecuteCommandsForPackages $filteredPackages "pm uninstall $package"
 }
 
 # Function to remove bloats from Main profile
