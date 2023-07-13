@@ -1,7 +1,3 @@
-# Work profile
-$WUserID = ($userObjects | Where-Object { $_.UniqueID -in "1030", "10b0" }).UserID
-if (!$WUserID) { Write-Host "No Work Profile Found"; break }
-
 # Function to display the menu
 function Show-WorkMenu {
   Clear-Host
@@ -16,14 +12,13 @@ function Show-WorkMenu {
 
 # Function to restore essential system apps
 function AutoDebloatWorkProfile {
-  Write-Host "Debloating Work Profile..."
-  RestoreUninstalledWork
+  RestoreUninstalled
   Remove-AllButEssentialApps
   Restore-EssentialSystemApps
 }
 
 # Function to restore uninstalled system apps
-function RestoreUninstalledWork {
+function RestoreUninstalled {
   $installedApps = (adb -s $DevSID shell pm list packages -s --user $WuserID) -replace '^package:', ''
   $appsToRestore = (adb -s $DevSID shell pm list packages -s -u --user $WuserID) -replace '^package:', '' | Where-Object { $_ -notin $installedApps } | Sort-Object -Unique
   ExecuteCommandsForPackages $appsToRestore "cmd package install-existing --user $WuserID"
@@ -31,7 +26,7 @@ function RestoreUninstalledWork {
 
 # Function to restore essential system apps
 function RestoreEssentialWork {
-  Write-Host "Restoring Uninstalled System Apps..."
+  Write-Host "Restoring Essential Apps..."
   $workcoreApps = GetEssentialApps
   ExecuteCommandsForPackages $workcoreApps "cmd package install-existing --user $WUserID"
 }
@@ -63,8 +58,7 @@ function GetEssentialApps {
   $dual_apps_core = Get-Content -Path "$esfolder\dual_apps_core.txt"
   $others = Get-Content -Path "$esfolder\others.txt"
 
-  $EssentialApps = $modulepkgs + $modules_overlay + $providers + $dual_apps_core + $others
-  $EssentialApps = $EssentialApps | Sort-Object -Unique
+  $EssentialApps = $modulepkgs + $modules_overlay + $providers + $dual_apps_core + $others | Where-Object { $_ -match '^\S' -and $_ -notmatch '^#' } | Sort-Object -Unique
   return $EssentialApps
 }
 

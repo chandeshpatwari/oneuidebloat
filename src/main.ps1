@@ -12,7 +12,7 @@ function Get-Users {
   $usersOutput = adb -s $DevSID shell pm list users
   $userInfoRegex = "UserInfo{(\d+):\s*([\w\s]+)\s*:(\w+)}"
   $nameIdMatch = [regex]::Matches($usersOutput, $userInfoRegex)
-  
+
   $userObjects = foreach ($match in $nameIdMatch) {
     [PSCustomObject]@{
       UserID   = $match.Groups[1].Value
@@ -20,35 +20,17 @@ function Get-Users {
       UniqueID = $match.Groups[3].Value.Trim()
     }
   }
-  
+
   return $userObjects
 }
 
 # Retrieve User IDs.
 $userObjects = Get-Users
-$MultiUsers = $userObjects | Where-Object { $_.UniqueID -notin "1030", "10b0" -and $_.Username -notin "DUAL_APP", "Secure Folder" }
-$MainUsers = $userObjects | Where-Object { $_.UniqueID -eq "c13" }
-
-# Gives Option to Choose Users, if multiuser available
-function ChooseUsers {
-  $selectedIndexes = $MultiUsers.ForEach({
-      $index = $MultiUsers.IndexOf($_)
-      Write-Host "[$index]. UserID: $($_.UserID), Username: $($_.Username), UniqueID: $($_.UniqueID)"
-      $index
-    })
-
-  do {
-    $selectedUserIndexes = Read-Host "Enter the User ID(s) Index, comma-separated."
-    $selectedIndexesArray = $selectedUserIndexes -split ',' -match '\d+' | ForEach-Object { [int]$_ } | Where-Object { $selectedIndexes -contains $_ } | Sort-Object -Unique
-  } while ($null -eq $selectedIndexesArray)
-  
-  $MainUsers = $MultiUsers[$selectedIndexesArray]
-  return $MainUsers
-}
+$MultiUsers = @($userObjects | Where-Object { $_.UniqueID -notin "1030", "10b0" -and $_.Username -notin "DUAL_APP", "Secure Folder" })
+$UserIDs = $MultiUsers.ForEach({ $_.UserID })
+$WUserID = ($userObjects | Where-Object { $_.UniqueID -in "1030", "10b0" }).UserID
 
 
-if ($MultiUsers.Count -ge 2) { $MainUsers = ChooseUsers }
-$UserIDs = $MainUsers.UserID
 if (!$UserIDs) { Write-Host "No Profile Found"; break }
 
 # Function to display the menu
@@ -123,6 +105,7 @@ function RemoveBloats {
 }
 
 function WorkProfile {
+  if (!$WUserID) { Write-Host "No Work Profile Found"; break }
   .\debloat-work-profile.ps1
 }
 
