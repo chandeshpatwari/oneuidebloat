@@ -1,5 +1,4 @@
 android.autoinstalls.config.samsung
-com.android.cts.ctsshim
 com.android.hotspot2.osulogin
 com.aura.oobe.samsung
 com.google.android.overlay.modules.modulemetadata.forframework
