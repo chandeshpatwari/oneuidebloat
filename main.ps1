@@ -42,7 +42,7 @@ $allbloats = if (Test-Path './bloats.csv') {
   Get-Content './bloats.csv' | ConvertFrom-Csv | Sort-Object -Property 'Action' 
 } else { 
   Write-Host 'Downloading Bloat List' -ForegroundColor Green
-  Invoke-RestMethod 'https://github.com/chandeshpatwari/oneuidebloat/raw/main/bloats.csv' -TimeoutSec 5 
+  Invoke-RestMethod 'https://github.com/chandeshpatwari/oneuidebloat/raw/main/bloats.csv' -TimeoutSec 5 | ConvertFrom-Csv | Sort-Object -Property 'Action' 
 } 
 
 if (!($allbloats)) { Write-Host 'Error Downloading' ; return }
