@@ -84,7 +84,10 @@ function RemoveBloats {
 
 do {
 
-  $allbloats = (Get-ChildItem ./pkgs).foreach({ Get-Content $_.FullName | ConvertFrom-Csv }) | Sort-Object -Property 'Action'
+  # $allbloats = (Get-ChildItem ./pkgs).foreach({ Get-Content $_.FullName | ConvertFrom-Csv }) | Sort-Object -Property 'Action'
+  $allbloats = if (Test-Path './bloats.csv') { Get-Content './bloats.csv' | ConvertFrom-Csv | Sort-Object -Property 'Action' } 
+  else { Invoke-RestMethod 'https://github.com/chandeshpatwari/oneuidebloat/raw/main/bloats.csv' | ConvertFrom-Csv | Sort-Object -Property 'Action' } 
+  
   $knoxbloats = $allbloats | Where-Object { $_.Suite -eq 'Knox & Enterprise' }
   $usefulbloats = $allbloats | Where-Object { $_.Action -eq '0' }
   $purebloats = $allbloats | Where-Object { $_.Action -eq '1' }
