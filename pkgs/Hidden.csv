@@ -1,0 +1,33 @@
+﻿Package,Details,Action,Suite
+com.sec.android.iaft,Developer Settings > IAFT,0,Unknown & Unecessary
+com.sec.spp.push,Samsung System Apps Notification Provider,1,Samsung Bloat
+com.samsung.android.app.camera.sticker.facearavatar.preload,Crocro and friends : Camera Sticker App,1,Samsung Camera
+com.snap.camerakit.plugin.v1,Camera Kit by Snap AR,1,Samsung Camera
+com.samsung.android.stickercenter,Stickers in Samsung Keyboard,1,Samsung Sticker
+com.sec.android.mimage.avatarstickers,Samsung AR Emoji Stickers,1,Samsung Sticker
+com.hiya.star,Caller ID Screener,1,Samsung Phone
+com.samsung.android.smartcallprovider,Caller ID Screener,1,Samsung Phone
+com.samsung.attribution,Data Collection,1,Data Logger
+com.sec.android.CcInfo,CcInfo : Analytics and logs,1,Data Logger
+com.samsung.android.kidsinstaller,Samsung Kids Home,1,Unknown & Unecessary
+com.samsung.android.sdm.config,Configuration Update for Samsung Deskphone Manager (SDM),1,Unknown & Unecessary
+com.samsung.android.setupindiaservicestnc,Samsung Serivices Persistant Notifiacation,1,Unknown & Unecessary
+com.samsung.android.svcagent,Diagnosis and Logger,1,Unknown & Unecessary
+com.samsung.safetyinformation,Safety information telling you to be careful with the usage of your phone,1,Unknown & Unecessary
+com.sec.android.app.SecSetupWizard,Samsung Setup Wizard,1,Unknown & Unecessary
+com.sec.android.app.chromecustomizations,Samsung Customisation on Chrome,1,Unknown & Unecessary
+com.sec.android.app.setupwizardlegalprovider,SetupWizardLegalProvider,1,Unknown & Unecessary
+com.samsung.android.net.wifi.wifiguider,Wi-Fi Tips,1,Unknown & Unecessary
+com.samsung.android.samsungpositioning,Location Provider for Samsung apps,1,Unknown & Unecessary
+com.samsung.faceservice,Gallary Face Recognition & Tagging,2,Samsung Gallary
+com.samsung.storyservice,Create Stories in Gallary,2,Samsung Gallary
+com.samsung.android.sdk.handwriting,Handwriting Service,2,Samsung Note
+com.samsung.android.aliveprivacy,Content Suggestions,2,Samsung Secure Folder
+com.samsung.android.alive.service,Content Suggestions Service,2,Samsung Secure Folder
+com.sec.usbsettings,Change USB Connection Protocol,2,USB Settings Launcher
+com.samsung.android.wcmurlsnetworkstack,wcmurlsnetworkstack,2,Unknown & Unecessary
+com.sec.android.app.personalization,,2,Unknown & Unecessary
+com.samsung.android.aircommandmanager,S Pen Support,2,Samsung Bloat
+com.samsung.sait.sohservice,SOH Service,2,Unknown & Unecessary
+com.sec.location.nfwlocationprivacy,Location Bloat,2,Unknown & Unecessary
+com.samsung.clipboardsaveservice,Clipboard Service,2,Samsung Bloat

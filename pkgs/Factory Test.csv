@@ -1,0 +1,23 @@
+﻿Package,Details,Action,Suite
+com.samsung.android.dqagent,Device Quality Agent,1,Foctory Test/Diagnostic/Dump
+com.samsung.android.networkdiagnostic,Network Diagnostic,1,Foctory Test/Diagnostic/Dump
+com.samsung.android.providers.factory,FactoryTestProvider,1,Foctory Test/Diagnostic/Dump
+com.samsung.android.visualars,Smart Touch Call,1,Foctory Test/Diagnostic/Dump
+com.samsung.ipservice,Hidden network settings,1,Foctory Test/Diagnostic/Dump
+com.samsung.logwriter,LogWriter,1,Foctory Test/Diagnostic/Dump
+com.sec.android.RilServiceModeApp,Service mode RIL app. Used for debug and diagnostics,1,Foctory Test/Diagnostic/Dump
+com.sec.android.app.DataCreate,Automation Test,1,Foctory Test/Diagnostic/Dump
+com.sec.android.app.factorykeystring,Dialable hidden diagnostic/debug app,1,Foctory Test/Diagnostic/Dump
+com.sec.android.app.hwmoduletest,"HwModuleTest, a hardware hidden test app",1,Foctory Test/Diagnostic/Dump
+com.sec.android.app.parser,DRParser Mode. Secret code parser. Support for hidden samsung apps launched via secret codes,1,Foctory Test/Diagnostic/Dump
+com.sec.android.app.servicemodeapp,SysDump hidden app. Low-level debugging and diagnostics tools,1,Foctory Test/Diagnostic/Dump
+com.sec.android.diagmonagent,Diagnostic Monitoring Agent,1,Foctory Test/Diagnostic/Dump
+com.sec.app.RilErrorNotifier,RilNotifier,1,Foctory Test/Diagnostic/Dump
+com.sec.bcservice,Broadcast Service. Diagnostic/debug hidden app. TCP dump,1,Foctory Test/Diagnostic/Dump
+com.sec.factory.camera,Camera Test,1,Foctory Test/Diagnostic/Dump
+com.sec.factory.cameralyzer,Cameralyzer,1,Foctory Test/Diagnostic/Dump
+com.sec.imslogger,IMS Logger,1,Foctory Test/Diagnostic/Dump
+com.sec.modem.settings,Loggger,1,Foctory Test/Diagnostic/Dump
+com.sec.phone,Test/Debug for Phone Calls,1,Foctory Test/Diagnostic/Dump
+com.sec.facatfunction,"UI Display, Sensors Tests",1,Foctory Test/Diagnostic/Dump
+com.samsung.android.dsms,logger,1,Foctory Test/Diagnostic/Dump

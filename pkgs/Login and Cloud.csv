@@ -1,0 +1,25 @@
+﻿Package,Details,Action,Suite
+com.osp.app.signin,Samsung Account,0,"Samsung Login, Cloud"
+com.samsung.android.scloud,Samsung Cloud,0,"Samsung Login, Cloud"
+com.samsung.android.authfw,Samsung Pass Framework,0,"Samsung Login, Cloud"
+com.samsung.android.fmm,Find my Mobile,0,Samsung apps and services
+com.sec.android.app.samsungapps,Galaxy Store,0,Samsung apps and services
+com.samsung.android.spayfw,Samsung Pay Framework,0,Samsung apps and services
+com.samsung.android.samsungpass,Samsung Pass,1,"Samsung Login, Cloud"
+com.samsung.android.samsungpassautofill,Samsung Pass Autofill,1,"Samsung Login, Cloud"
+com.samsung.android.app.find,Samsung Find,1,Samsung apps and services
+com.samsung.android.voc,Samsung Members,1,Samsung apps and services
+com.samsung.android.ipsgeofence,Samsung Visit In,1,Samsung apps and services
+com.sec.android.app.billing,Samsung Checkout,1,Samsung apps and services
+com.samsung.android.app.watchmanager,Galaxy Wearable,1,Samsung Bloat
+com.samsung.android.spay,Samsung Wallet,1,Samsung Bloat
+com.samsung.android.oneconnect,SmartThings,1,Samsung apps and services
+com.samsung.android.beaconmanager,Samsung Neary Scanning,1,Samsung SmartThinigs
+com.samsung.android.service.stplatform,SmartThings Framework,1,Samsung SmartThinigs
+com.samsung.android.easysetup,Samsung Nearby device scanning,1,Samsung SmartThinigs
+com.samsung.android.mobileservice,Group Sharing,2,"Samsung Login, Cloud"
+com.samsung.android.app.settings.bixby,Samsung Setting Intelligence,2,Samsung apps and services
+com.samsung.android.app.watchmanagerstub,Stub for the Galaxy Wearable app,2,Samsung apps and services
+com.sec.penup,PENUP ,2,Samsung apps and services
+com.sec.android.app.shealth,Samsung Health,2,Samsung apps and services
+com.sec.android.app.sbrowser,Samsung Browser,2,Samsung Bloat

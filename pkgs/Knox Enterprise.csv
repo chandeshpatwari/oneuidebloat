@@ -1,0 +1,21 @@
+﻿Package,Details,Action,Suite
+com.samsung.knox.securefolder,Create Separate Space for Private Apps and Files,0,Knox & Enterprise
+com.samsung.klmsagent,KLM/KPE (Knox Licence Manager) Agent,0,Knox & Enterprise
+com.samsung.android.appseparation,Isolates third-party apps in a sandboxed folder,2,Knox & Enterprise
+com.samsung.android.knox.kpecore,Samsung 'Knox Platform for Enterprise',2,Knox & Enterprise
+com.samsung.android.knox.attestation,Check the integrity of a device by connecting to a Samsung Attestation Server,2,Knox & Enterprise
+com.knox.vpn.proxyhandler,Proxy Handler for Knox,2,Knox & Enterprise
+com.samsung.android.knox.pushmanager,Knox Push Manager,2,Knox & Enterprise
+com.samsung.android.knox.containercore,Contains Knox Profile,2,Knox & Enterprise
+com.samsung.android.knox.app.networkfilter,Network Filter for Knox,2,Knox & Enterprise
+com.sec.enterprise.knox.cloudmdm.smdms,Knox Enrollment Service,2,Knox & Enterprise
+com.samsung.android.knox.zt.framework,Knox Zero Trust Framework,2,Knox & Enterprise
+com.samsung.android.knox.mpos,Knox for POS Devices,2,Knox & Enterprise
+com.samsung.android.knox.analytics.uploader,Knox Analytics Uploader,2,Knox & Enterprise
+com.samsung.android.bbc.bbcagent,Manages app installation in KNOX  containers,2,Knox & Enterprise
+com.samsung.android.mdm,Mobile Device Management app,2,Knox & Enterprise
+com.sec.enterprise.mdm.services.simpin,Enterprise Sim Pin Service,2,Knox & Enterprise
+com.skms.android.agent,Samsung KMS Agent,2,Knox & Enterprise
+com.samsung.android.hdmapp,Hypervisor Device Manager App,2,Knox & Enterprise
+com.samsung.android.container,ContainerService,2,Knox & Enterprise
+com.samsung.aasaservice,Security Policy App,2,Knox & Enterprise
