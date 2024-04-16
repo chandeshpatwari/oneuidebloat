@@ -1,4 +1,4 @@
-# android-ouneui-fix
-debloat and tweak one ui 6 (requires adb)
+# OneUI Debloat
+Debloat samsung OneUI in one go
 
-List Generated with [`[UAD]`](https://github.com/0x192/universal-android-debloater)
+For GUI/(Manual/Specific Removal) : [[UAD]](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation)
