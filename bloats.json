@@ -1,0 +1,950 @@
+[
+    {
+        "Package":  "com.samsung.android.scpm",
+        "Details":  "Security and privacy \u003e More Security settings \u003e Enhanced Data Protection",
+        "Action":  "0",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.android.app.routines",
+        "Details":  "Settings \u003e Modes and Routines",
+        "Action":  "0",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.android.smartface",
+        "Details":  "Settings \u003e Display \u003e Screen Timeout \u003e Keep Screen on While Viewing",
+        "Action":  "0",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.android.kmxservice",
+        "Details":  "Security and privacy \u003e More Security settings \u003e Enhanced Data Protection",
+        "Action":  "0",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.osp.app.signin",
+        "Details":  "Samsung Account",
+        "Action":  "0",
+        "Suite":  "Samsung Login, Cloud"
+    },
+    {
+        "Package":  "com.sec.android.iaft",
+        "Details":  "Developer Settings \u003e IAFT",
+        "Action":  "0",
+        "Suite":  "Unknown \u0026 Unecessary"
+    },
+    {
+        "Package":  "com.sec.location.nsflp2",
+        "Details":  "Modes and Routines location based tigger",
+        "Action":  "0",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.android.location",
+        "Details":  "Modes and Routines location based tigger",
+        "Action":  "0",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.android.mdx.kit",
+        "Details":  "Quick Share Framework",
+        "Action":  "0",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.android.fmm",
+        "Details":  "Find my Mobile",
+        "Action":  "0",
+        "Suite":  "Samsung apps and services"
+    },
+    {
+        "Package":  "com.samsung.android.spayfw",
+        "Details":  "Samsung Pay Framework",
+        "Action":  "0",
+        "Suite":  "Samsung apps and services"
+    },
+    {
+        "Package":  "com.samsung.android.scloud",
+        "Details":  "Samsung Cloud",
+        "Action":  "0",
+        "Suite":  "Samsung Login, Cloud"
+    },
+    {
+        "Package":  "com.samsung.android.authfw",
+        "Details":  "Samsung Pass Framework",
+        "Action":  "0",
+        "Suite":  "Samsung Login, Cloud"
+    },
+    {
+        "Package":  "com.samsung.android.app.sharelive",
+        "Details":  "Settings \u003e Connected Device \u003e Quick Share",
+        "Action":  "0",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.android.aware.service",
+        "Details":  "Quick Share Agent",
+        "Action":  "0",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.klmsagent",
+        "Details":  "KLM/KPE (Knox Licence Manager) Agent",
+        "Action":  "0",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.samsung.knox.securefolder",
+        "Details":  "Create Separate Space for Private Apps and Files",
+        "Action":  "0",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.sec.android.app.samsungapps",
+        "Details":  "Galaxy Store",
+        "Action":  "0",
+        "Suite":  "Samsung apps and services"
+    },
+    {
+        "Package":  "com.samsung.android.app.updatecenter",
+        "Details":  "Installs Updates : No Affect Upon Uninstalling",
+        "Action":  "1",
+        "Suite":  "Trash Installer"
+    },
+    {
+        "Package":  "com.samsung.android.app.omcagent",
+        "Details":  "Installs More Bloats",
+        "Action":  "1",
+        "Suite":  "Trash Installer"
+    },
+    {
+        "Package":  "com.aura.oobe.samsung",
+        "Details":  "AppCloud : Installs Trash",
+        "Action":  "1",
+        "Suite":  "Trash Installer"
+    },
+    {
+        "Package":  "com.samsung.android.beaconmanager",
+        "Details":  "Samsung Neary Scanning",
+        "Action":  "1",
+        "Suite":  "Samsung SmartThinigs"
+    },
+    {
+        "Package":  "com.samsung.android.service.stplatform",
+        "Details":  "SmartThings Framework",
+        "Action":  "1",
+        "Suite":  "Samsung SmartThinigs"
+    },
+    {
+        "Package":  "com.samsung.android.easysetup",
+        "Details":  "Samsung Nearby device scanning",
+        "Action":  "1",
+        "Suite":  "Samsung SmartThinigs"
+    },
+    {
+        "Package":  "android.autoinstalls.config.samsung",
+        "Details":  "Installs More Bloats",
+        "Action":  "1",
+        "Suite":  "Trash Installer"
+    },
+    {
+        "Package":  "com.sec.android.easyMover.Agent",
+        "Details":  "Samsung Smart Switch Agent",
+        "Action":  "1",
+        "Suite":  "Samsung Smart Switch"
+    },
+    {
+        "Package":  "com.sec.android.easyMover",
+        "Details":  "Samsung Smart Switch Mobile",
+        "Action":  "1",
+        "Suite":  "Samsung Smart Switch"
+    },
+    {
+        "Package":  "com.samsung.android.messaging",
+        "Details":  "Samsung Message",
+        "Action":  "1",
+        "Suite":  "Samsung Bloat"
+    },
+    {
+        "Package":  "com.samsung.android.keycustomizationinfobackupservice",
+        "Details":  "SmartSwitch Samsung Cloud",
+        "Action":  "1",
+        "Suite":  "Samsung Smart Switch"
+    },
+    {
+        "Package":  "com.samsung.android.shortcutbackupservice",
+        "Details":  "SmartSwitch Samsung Cloud",
+        "Action":  "1",
+        "Suite":  "Samsung Smart Switch"
+    },
+    {
+        "Package":  "com.samsung.android.smartswitchassistant",
+        "Details":  "Samsung Smart Switch Assistant",
+        "Action":  "1",
+        "Suite":  "Samsung Smart Switch"
+    },
+    {
+        "Package":  "com.samsung.android.oneconnect",
+        "Details":  "SmartThings",
+        "Action":  "1",
+        "Suite":  "Samsung apps and services"
+    },
+    {
+        "Package":  "com.samsung.android.dqagent",
+        "Details":  "Device Quality Agent",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.samsung.android.mapsagent",
+        "Details":  "Application recommendations",
+        "Action":  "1",
+        "Suite":  "Trash Installer"
+    },
+    {
+        "Package":  "com.samsung.android.samsungpass",
+        "Details":  "Samsung Pass",
+        "Action":  "1",
+        "Suite":  "Samsung Login, Cloud"
+    },
+    {
+        "Package":  "com.samsung.android.themecenter",
+        "Details":  "Galaxy Theme Service",
+        "Action":  "1",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.discover.sep",
+        "Details":  "Required by com.samsung.discover",
+        "Action":  "1",
+        "Suite":  "Trash Installer"
+    },
+    {
+        "Package":  "com.samsung.discover",
+        "Details":  "Shows app recommendations on Launcher",
+        "Action":  "1",
+        "Suite":  "Trash Installer"
+    },
+    {
+        "Package":  "com.samsung.android.samsungpassautofill",
+        "Details":  "Samsung Pass Autofill",
+        "Action":  "1",
+        "Suite":  "Samsung Login, Cloud"
+    },
+    {
+        "Package":  "com.sec.android.app.billing",
+        "Details":  "Samsung Checkout",
+        "Action":  "1",
+        "Suite":  "Samsung apps and services"
+    },
+    {
+        "Package":  "com.samsung.android.app.watchmanager",
+        "Details":  "Galaxy Wearable",
+        "Action":  "1",
+        "Suite":  "Samsung Bloat"
+    },
+    {
+        "Package":  "com.samsung.android.spay",
+        "Details":  "Samsung Wallet",
+        "Action":  "1",
+        "Suite":  "Samsung Bloat"
+    },
+    {
+        "Package":  "com.samsung.android.app.find",
+        "Details":  "Samsung Find",
+        "Action":  "1",
+        "Suite":  "Samsung apps and services"
+    },
+    {
+        "Package":  "com.samsung.android.voc",
+        "Details":  "Samsung Members",
+        "Action":  "1",
+        "Suite":  "Samsung apps and services"
+    },
+    {
+        "Package":  "com.samsung.android.ipsgeofence",
+        "Details":  "Samsung Visit In",
+        "Action":  "1",
+        "Suite":  "Samsung apps and services"
+    },
+    {
+        "Package":  "com.sec.android.widgetapp.webmanual",
+        "Details":  "User Manual",
+        "Action":  "1",
+        "Suite":  "Samsung Widgets"
+    },
+    {
+        "Package":  "com.opera.max.oem",
+        "Details":  "Samsung Max VPN \u0026 Data Saver",
+        "Action":  "1",
+        "Suite":  "Samsung Bloat"
+    },
+    {
+        "Package":  "com.samsung.android.app.spage",
+        "Details":  "Samsung Free",
+        "Action":  "1",
+        "Suite":  "Samsung Bloat"
+    },
+    {
+        "Package":  "com.samsung.ecomm.global.in",
+        "Details":  "Samsung Shop",
+        "Action":  "1",
+        "Suite":  "Samsung Bloat"
+    },
+    {
+        "Package":  "com.mygalaxy",
+        "Details":  "My Galaxy",
+        "Action":  "1",
+        "Suite":  "Samsung Bloat"
+    },
+    {
+        "Package":  "com.facebook.services",
+        "Details":  "Meta Services",
+        "Action":  "1",
+        "Suite":  "Facebook Bloat"
+    },
+    {
+        "Package":  "com.facebook.system",
+        "Details":  "Meta App Installer",
+        "Action":  "1",
+        "Suite":  "Facebook Bloat"
+    },
+    {
+        "Package":  "com.microsoft.skydrive",
+        "Details":  "Microsoft Onedrive",
+        "Action":  "1",
+        "Suite":  "Microsoft Bloat"
+    },
+    {
+        "Package":  "com.samsung.android.arzone",
+        "Details":  "Samsung AR Zone",
+        "Action":  "1",
+        "Suite":  "Samsung AR"
+    },
+    {
+        "Package":  "com.samsung.android.mfi",
+        "Details":  "Galaxy Widget",
+        "Action":  "1",
+        "Suite":  "Samsung Widgets"
+    },
+    {
+        "Package":  "com.samsung.android.widget.pictureframe",
+        "Details":  "Gallery widget",
+        "Action":  "1",
+        "Suite":  "Samsung Widgets"
+    },
+    {
+        "Package":  "com.samsung.android.aremojieditor",
+        "Details":  "Samsung AR Emoji Editor",
+        "Action":  "1",
+        "Suite":  "Samsung AR"
+    },
+    {
+        "Package":  "com.samsung.android.ardrawing",
+        "Details":  "Samsung AR Doodle",
+        "Action":  "1",
+        "Suite":  "Samsung AR"
+    },
+    {
+        "Package":  "com.sec.android.daemonapp",
+        "Details":  "Required by certain Widgets",
+        "Action":  "1",
+        "Suite":  "Samsung Widgets"
+    },
+    {
+        "Package":  "com.samsung.android.aremoji",
+        "Details":  "Samsung AR Emoji",
+        "Action":  "1",
+        "Suite":  "Samsung AR"
+    },
+    {
+        "Package":  "com.samsung.android.smartmirroring",
+        "Details":  "Settings \u003e Connected Device \u003e Smart View",
+        "Action":  "1",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.android.allshare.service.mediashare",
+        "Details":  "Smart View Service",
+        "Action":  "1",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.android.smartface.overlay",
+        "Details":  "Smartface Overlay, Unecessary",
+        "Action":  "1",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.android.inputshare",
+        "Details":  "Settings \u003e Connected Device \u003e Multi Control",
+        "Action":  "1",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.android.mdecservice",
+        "Details":  "Settings \u003e Connected Device \u003e Call \u0026 text on other devices",
+        "Action":  "1",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.android.mcfserver",
+        "Details":  "Samsung Multi Connectivity",
+        "Action":  "1",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.android.mcfds",
+        "Details":  "Settings \u003e Connected Device \u003e Continue apps on other devices",
+        "Action":  "1",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.android.sm.devicesecurity",
+        "Details":  "Battery and Device care -\u003e App Protection",
+        "Action":  "1",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.android.uds",
+        "Details":  "Battery and Device care -\u003e Ultra Data Saving",
+        "Action":  "1",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.facebook.appmanager",
+        "Details":  "Meta App Manager",
+        "Action":  "1",
+        "Suite":  "Facebook Bloat"
+    },
+    {
+        "Package":  "com.samsung.android.rubin.app",
+        "Details":  "Digital wellbeing and parental controls \u003e Driving \u0026 Walking Monitor",
+        "Action":  "1",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.android.dynamiclock",
+        "Details":  "Settings \u003e Wallaper and Style \u003e Change Wallpaper \u003e Wallpaper Services",
+        "Action":  "1",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.sec.android.widgetapp.easymodecontactswidget",
+        "Details":  "Favourite Contacts widget",
+        "Action":  "1",
+        "Suite":  "Samsung Widgets"
+    },
+    {
+        "Package":  "com.samsung.android.themestore",
+        "Details":  "Settings \u003e Themes",
+        "Action":  "1",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.snap.camerakit.plugin.v1",
+        "Details":  "Camera Kit by Snap AR",
+        "Action":  "1",
+        "Suite":  "Samsung Camera"
+    },
+    {
+        "Package":  "com.samsung.android.app.camera.sticker.facearavatar.preload",
+        "Details":  "Crocro and friends : Camera Sticker App",
+        "Action":  "1",
+        "Suite":  "Samsung Camera"
+    },
+    {
+        "Package":  "com.samsung.android.stickercenter",
+        "Details":  "Stickers in Samsung Keyboard",
+        "Action":  "1",
+        "Suite":  "Samsung Sticker"
+    },
+    {
+        "Package":  "com.hiya.star",
+        "Details":  "Caller ID Screener",
+        "Action":  "1",
+        "Suite":  "Samsung Phone"
+    },
+    {
+        "Package":  "com.sec.android.mimage.avatarstickers",
+        "Details":  "Samsung AR Emoji Stickers",
+        "Action":  "1",
+        "Suite":  "Samsung Sticker"
+    },
+    {
+        "Package":  "com.sec.spp.push",
+        "Details":  "Samsung System Apps Notification Provider",
+        "Action":  "1",
+        "Suite":  "Samsung Bloat"
+    },
+    {
+        "Package":  "com.sec.modem.settings",
+        "Details":  "Loggger",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.sec.imslogger",
+        "Details":  "IMS Logger",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.sec.phone",
+        "Details":  "Test/Debug for Phone Calls",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.samsung.android.dsms",
+        "Details":  "logger",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.sec.facatfunction",
+        "Details":  "UI Display, Sensors Tests",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.samsung.android.smartcallprovider",
+        "Details":  "Caller ID Screener",
+        "Action":  "1",
+        "Suite":  "Samsung Phone"
+    },
+    {
+        "Package":  "com.samsung.android.svcagent",
+        "Details":  "Diagnosis and Logger",
+        "Action":  "1",
+        "Suite":  "Unknown \u0026 Unecessary"
+    },
+    {
+        "Package":  "com.sec.android.CcInfo",
+        "Details":  "CcInfo : Analytics and logs",
+        "Action":  "1",
+        "Suite":  "Data Logger"
+    },
+    {
+        "Package":  "com.samsung.android.setupindiaservicestnc",
+        "Details":  "Samsung Serivices Persistant Notifiacation",
+        "Action":  "1",
+        "Suite":  "Unknown \u0026 Unecessary"
+    },
+    {
+        "Package":  "com.samsung.android.kidsinstaller",
+        "Details":  "Samsung Kids Home",
+        "Action":  "1",
+        "Suite":  "Unknown \u0026 Unecessary"
+    },
+    {
+        "Package":  "com.samsung.android.sdm.config",
+        "Details":  "Configuration Update for Samsung Deskphone Manager (SDM)",
+        "Action":  "1",
+        "Suite":  "Unknown \u0026 Unecessary"
+    },
+    {
+        "Package":  "com.sec.android.app.SecSetupWizard",
+        "Details":  "Samsung Setup Wizard",
+        "Action":  "1",
+        "Suite":  "Unknown \u0026 Unecessary"
+    },
+    {
+        "Package":  "com.samsung.android.samsungpositioning",
+        "Details":  "Location Provider for Samsung apps",
+        "Action":  "1",
+        "Suite":  "Unknown \u0026 Unecessary"
+    },
+    {
+        "Package":  "com.samsung.attribution",
+        "Details":  "Data Collection",
+        "Action":  "1",
+        "Suite":  "Data Logger"
+    },
+    {
+        "Package":  "com.samsung.android.net.wifi.wifiguider",
+        "Details":  "Wi-Fi Tips",
+        "Action":  "1",
+        "Suite":  "Unknown \u0026 Unecessary"
+    },
+    {
+        "Package":  "com.sec.android.app.chromecustomizations",
+        "Details":  "Samsung Customisation on Chrome",
+        "Action":  "1",
+        "Suite":  "Unknown \u0026 Unecessary"
+    },
+    {
+        "Package":  "com.sec.android.app.setupwizardlegalprovider",
+        "Details":  "SetupWizardLegalProvider",
+        "Action":  "1",
+        "Suite":  "Unknown \u0026 Unecessary"
+    },
+    {
+        "Package":  "com.samsung.logwriter",
+        "Details":  "LogWriter",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.samsung.ipservice",
+        "Details":  "Hidden network settings",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.sec.android.app.DataCreate",
+        "Details":  "Automation Test",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.sec.android.RilServiceModeApp",
+        "Details":  "Service mode RIL app. Used for debug and diagnostics",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.samsung.android.networkdiagnostic",
+        "Details":  "Network Diagnostic",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.samsung.safetyinformation",
+        "Details":  "Safety information telling you to be careful with the usage of your phone",
+        "Action":  "1",
+        "Suite":  "Unknown \u0026 Unecessary"
+    },
+    {
+        "Package":  "com.samsung.android.visualars",
+        "Details":  "Smart Touch Call",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.samsung.android.providers.factory",
+        "Details":  "FactoryTestProvider",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.sec.android.app.factorykeystring",
+        "Details":  "Dialable hidden diagnostic/debug app",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.sec.bcservice",
+        "Details":  "Broadcast Service. Diagnostic/debug hidden app. TCP dump",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.sec.app.RilErrorNotifier",
+        "Details":  "RilNotifier",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.sec.factory.cameralyzer",
+        "Details":  "Cameralyzer",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.sec.factory.camera",
+        "Details":  "Camera Test",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.sec.android.app.parser",
+        "Details":  "DRParser Mode. Secret code parser. Support for hidden samsung apps launched via secret codes",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.sec.android.app.hwmoduletest",
+        "Details":  "HwModuleTest, a hardware hidden test app",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.sec.android.diagmonagent",
+        "Details":  "Diagnostic Monitoring Agent",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.sec.android.app.servicemodeapp",
+        "Details":  "SysDump hidden app. Low-level debugging and diagnostics tools",
+        "Action":  "1",
+        "Suite":  "Foctory Test/Diagnostic/Dump"
+    },
+    {
+        "Package":  "com.sec.android.app.quicktool",
+        "Details":  "Tools Edge",
+        "Action":  "2",
+        "Suite":  "Edge"
+    },
+    {
+        "Package":  "com.samsung.android.app.clipboardedge",
+        "Details":  "Clipboard Edge",
+        "Action":  "2",
+        "Suite":  "Edge"
+    },
+    {
+        "Package":  "com.samsung.android.rampart",
+        "Details":  "Samsung Auto Blocker",
+        "Action":  "2",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.android.app.cocktailbarservice",
+        "Details":  "Edge Panel",
+        "Action":  "2",
+        "Suite":  "Edge"
+    },
+    {
+        "Package":  "com.samsung.SMT",
+        "Details":  "Samsung Text to Speech",
+        "Action":  "2",
+        "Suite":  "Samsung App and Services"
+    },
+    {
+        "Package":  "com.samsung.android.app.taskedge",
+        "Details":  "Tasks Edge",
+        "Action":  "2",
+        "Suite":  "Edge"
+    },
+    {
+        "Package":  "com.samsung.android.service.peoplestripe",
+        "Details":  "People Edge",
+        "Action":  "2",
+        "Suite":  "Edge"
+    },
+    {
+        "Package":  "com.samsung.android.knox.containercore",
+        "Details":  "Contains Knox Profile",
+        "Action":  "2",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.samsung.android.knox.pushmanager",
+        "Details":  "Knox Push Manager",
+        "Action":  "2",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.sec.enterprise.knox.cloudmdm.smdms",
+        "Details":  "Knox Enrollment Service",
+        "Action":  "2",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.samsung.android.knox.app.networkfilter",
+        "Details":  "Network Filter for Knox",
+        "Action":  "2",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.knox.vpn.proxyhandler",
+        "Details":  "Proxy Handler for Knox",
+        "Action":  "2",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.samsung.android.appseparation",
+        "Details":  "Isolates third-party apps in a sandboxed folder",
+        "Action":  "2",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.samsung.android.mobileservice",
+        "Details":  "Group Sharing",
+        "Action":  "2",
+        "Suite":  "Samsung Login, Cloud"
+    },
+    {
+        "Package":  "com.samsung.android.knox.attestation",
+        "Details":  "Check the integrity of a device by connecting to a Samsung Attestation Server",
+        "Action":  "2",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.samsung.android.knox.kpecore",
+        "Details":  "Samsung \u0027Knox Platform for Enterprise\u0027",
+        "Action":  "2",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.skms.android.agent",
+        "Details":  "Samsung KMS Agent",
+        "Action":  "2",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.sec.enterprise.mdm.services.simpin",
+        "Details":  "Enterprise Sim Pin Service",
+        "Action":  "2",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.samsung.android.container",
+        "Details":  "ContainerService",
+        "Action":  "2",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.samsung.android.hdmapp",
+        "Details":  "Hypervisor Device Manager App",
+        "Action":  "2",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.samsung.android.mdm",
+        "Details":  "Mobile Device Management app",
+        "Action":  "2",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.samsung.android.knox.mpos",
+        "Details":  "Knox for POS Devices",
+        "Action":  "2",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.samsung.android.knox.zt.framework",
+        "Details":  "Knox Zero Trust Framework",
+        "Action":  "2",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.samsung.android.bbc.bbcagent",
+        "Details":  "Manages app installation in KNOX  containers",
+        "Action":  "2",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.samsung.android.knox.analytics.uploader",
+        "Details":  "Knox Analytics Uploader",
+        "Action":  "2",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.samsung.android.app.settings.bixby",
+        "Details":  "Samsung Setting Intelligence",
+        "Action":  "2",
+        "Suite":  "Samsung apps and services"
+    },
+    {
+        "Package":  "com.samsung.android.alive.service",
+        "Details":  "Content Suggestions Service",
+        "Action":  "2",
+        "Suite":  "Samsung Secure Folder"
+    },
+    {
+        "Package":  "com.samsung.android.aliveprivacy",
+        "Details":  "Content Suggestions",
+        "Action":  "2",
+        "Suite":  "Samsung Secure Folder"
+    },
+    {
+        "Package":  "com.samsung.android.wcmurlsnetworkstack",
+        "Details":  "wcmurlsnetworkstack",
+        "Action":  "2",
+        "Suite":  "Unknown \u0026 Unecessary"
+    },
+    {
+        "Package":  "com.sec.usbsettings",
+        "Details":  "Change USB Connection Protocol",
+        "Action":  "2",
+        "Suite":  "USB Settings Launcher"
+    },
+    {
+        "Package":  "com.samsung.android.sdk.handwriting",
+        "Details":  "Handwriting Service",
+        "Action":  "2",
+        "Suite":  "Samsung Note"
+    },
+    {
+        "Package":  "com.samsung.aasaservice",
+        "Details":  "Security Policy App",
+        "Action":  "2",
+        "Suite":  "Knox \u0026 Enterprise"
+    },
+    {
+        "Package":  "com.sec.mhs.smarttethering",
+        "Details":  "Connections \u003e Mobile Hotspot and Tethring \u003e Mobile Hotspot \u003e Auto Hotspot",
+        "Action":  "2",
+        "Suite":  null
+    },
+    {
+        "Package":  "com.samsung.storyservice",
+        "Details":  "Create Stories in Gallary",
+        "Action":  "2",
+        "Suite":  "Samsung Gallary"
+    },
+    {
+        "Package":  "com.samsung.faceservice",
+        "Details":  "Gallary Face Recognition \u0026 Tagging",
+        "Action":  "2",
+        "Suite":  "Samsung Gallary"
+    },
+    {
+        "Package":  "com.sec.android.app.shealth",
+        "Details":  "Samsung Health",
+        "Action":  "2",
+        "Suite":  "Samsung apps and services"
+    },
+    {
+        "Package":  "com.sec.android.app.sbrowser",
+        "Details":  "Samsung Browser",
+        "Action":  "2",
+        "Suite":  "Samsung Bloat"
+    },
+    {
+        "Package":  "com.samsung.android.app.watchmanagerstub",
+        "Details":  "Stub for the Galaxy Wearable app",
+        "Action":  "2",
+        "Suite":  "Samsung apps and services"
+    },
+    {
+        "Package":  "com.sec.penup",
+        "Details":  "PENUP?",
+        "Action":  "2",
+        "Suite":  "Samsung apps and services"
+    },
+    {
+        "Package":  "com.samsung.clipboardsaveservice",
+        "Details":  "Clipboard Service",
+        "Action":  "2",
+        "Suite":  "Samsung Bloat"
+    },
+    {
+        "Package":  "com.samsung.android.aircommandmanager",
+        "Details":  "S Pen Support",
+        "Action":  "2",
+        "Suite":  "Samsung Bloat"
+    },
+    {
+        "Package":  "com.sec.android.app.personalization",
+        "Details":  "",
+        "Action":  "2",
+        "Suite":  "Unknown \u0026 Unecessary"
+    },
+    {
+        "Package":  "com.sec.location.nfwlocationprivacy",
+        "Details":  "Location Bloat",
+        "Action":  "2",
+        "Suite":  "Unknown \u0026 Unecessary"
+    },
+    {
+        "Package":  "com.samsung.sait.sohservice",
+        "Details":  "SOH Service",
+        "Action":  "2",
+        "Suite":  "Unknown \u0026 Unecessary"
+    }
+]
