@@ -1,5 +1,5 @@
 # OneUI Debloat
-Debloat samsung OneUI in one go
+Debloat Samsung OneUI in one go using powershell
 
 ```powershell
 irm https://rentry.org/oneuidebloat/raw | iex
