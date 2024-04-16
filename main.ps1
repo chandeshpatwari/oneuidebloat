@@ -6,9 +6,8 @@ function connectdevice {
     return $availabledevices
   }
 
-  if ($availabledevices.Count -eq 0) {
-    Write-Host 'No device attached'; return
-  } else {
+  if ($availabledevices.Count -eq 0) { return } 
+  else {
     for ($i = 0; $i -lt $availabledevices.Count; $i++) { Write-Host "[$i]. $devOutput[$i]" }
     $devindex = Read-Host 'Select a device.'
     while ($devindex -gt ($availabledevices.Count - 1)) { $devindex = Read-Host 'Try again.' }
@@ -30,7 +29,6 @@ function connectdevice {
   return $selecteddevice
 }
 
-$selecteddevice = connectdevice
 
 function Get-Users {
   $usersOutput = adb -s $selecteddevice shell pm list users -like '*UserInfo*'
@@ -41,10 +39,6 @@ function Get-Users {
   }  
   return $userObjects
 }
-
-# Retrieve User IDs.
-$UserIDS = (Get-Users | Where-Object { $_.Username -NotIn @('DUAL_APP', 'Secure Folder') }).UserID
-if (!$UserIDs) { Write-Host 'No Profile Found'; break }
 
 
 # Applications that are neither user-installed nor pre-installed as system apps.
@@ -82,17 +76,24 @@ function RemoveBloats {
   Pause
 }
 
+# Connect to a device
+$selecteddevice = connectdevice
+if (!$selecteddevice) { Read-Host 'No Device Found'; return }
+
+# Retrieve User IDs.
+$UserIDS = (Get-Users | Where-Object { $_.Username -NotIn @('DUAL_APP', 'Secure Folder') }).UserID
+if (!$UserIDs) { Write-Host 'No Profile Found'; return }
+
+# Fetch Files
+# $allbloats = (Get-ChildItem ./pkgs).foreach({ Get-Content $_.FullName | ConvertFrom-Csv }) | Sort-Object -Property 'Action'
+$allbloats = if (Test-Path './bloats.csv') { Get-Content './bloats.csv' | ConvertFrom-Csv | Sort-Object -Property 'Action' } 
+else { Invoke-RestMethod 'https://github.com/chandeshpatwari/oneuidebloat/raw/main/bloats.csv' | ConvertFrom-Csv | Sort-Object -Property 'Action' } 
+$knoxbloats = $allbloats | Where-Object { $_.Suite -eq 'Knox & Enterprise' }
+$usefulbloats = $allbloats | Where-Object { $_.Action -eq '0' }
+$purebloats = $allbloats | Where-Object { $_.Action -eq '1' }
+$secondarybloats = $allbloats | Where-Object { $_.Action -eq '2' }
+
 do {
-
-  # $allbloats = (Get-ChildItem ./pkgs).foreach({ Get-Content $_.FullName | ConvertFrom-Csv }) | Sort-Object -Property 'Action'
-  $allbloats = if (Test-Path './bloats.csv') { Get-Content './bloats.csv' | ConvertFrom-Csv | Sort-Object -Property 'Action' } 
-  else { Invoke-RestMethod 'https://github.com/chandeshpatwari/oneuidebloat/raw/main/bloats.csv' | ConvertFrom-Csv | Sort-Object -Property 'Action' } 
-  
-  $knoxbloats = $allbloats | Where-Object { $_.Suite -eq 'Knox & Enterprise' }
-  $usefulbloats = $allbloats | Where-Object { $_.Action -eq '0' }
-  $purebloats = $allbloats | Where-Object { $_.Action -eq '1' }
-  $secondarybloats = $allbloats | Where-Object { $_.Action -eq '2' }
-
   Clear-Host
   Write-Host '== Debloater =='
   Write-Host '1. Debloat' -ForegroundColor Green
